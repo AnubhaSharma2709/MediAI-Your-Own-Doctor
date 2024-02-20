@@ -1,0 +1,131 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <title>Medcare Medical</title>
+    <!-- Bootstrap CSS -->
+
+    <link href="{% static 'core/css/bootstrap.css' %}" rel="stylesheet">
+    <link href="{% static 'core/css/themify-icons.css' %}" rel="stylesheet">
+    <link href="{% static 'core/css/flaticon.css' %}" rel="stylesheet">
+    <link href="{% static 'core/vendors/fontawesome/css/all.min.css' %}" rel="stylesheet">
+
+    <link href="{% static 'core/owl-carousel/owl.carousel.min.css' %}" rel="stylesheet">
+    <link href="{% static 'core/nimate-css/animate.css' %}" rel="stylesheet">
+    <link href="{% static 'core/css/style.css' %}" rel="stylesheet">
+    <link href="{% static 'core/css/esponsive.css' %}" rel="stylesheet">
+
+    <style>
+        .team-area .row {
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!--================Header Menu Area =================-->
+    <header class="header_area">
+        <div class="top_menu row m0">
+  
+        </div>  
+        <div class="main_menu">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <a class="navbar-brand logo_h" href="index.html"><img src="{% static 'core/img/logo.png' %}" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav menu_nav ml-auto">
+                            <li class="nav-item"><a class="nav-link" href="/">Home</a></li> 
+                            <li class="nav-item"><a class="nav-link" href="{% url 'reg' %}">Register</a></li>      
+                            <li class="nav-item"><a class="nav-link" href="{% url 'login' %}">Login</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!--================Home Banner Area =================-->
+
+    <section class="banner-area d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-lg-6 col-xl-5">
+                    <h1>Making Health<br>
+                    Care Better Together</h1>
+                    <p>Also you dry creeping beast multiply fourth abundantly our itsel signs bring our. Won form living. Whose dry you seasons divide given gathering great in whose you'll greater let livein form beast  sinthete
+                    better together these place absolute right.</p>
+                    <a href="" class="main_btn">Make an Appointment</a>
+                    <a href="" class="main_btn_light">View Department</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--================End Home Banner Area =================-->
+
+    <!--================ Team section start =================-->  
+    <section class="team-area area-padding">
+        <div class="container">
+            <div class="area-heading row">
+                <div class="col-md-12 text-center">
+                    <h3>Medcare<br>Experience Doctors</h3>
+                    <p>Land meat winged called subdue without very light in all years sea appear midst forth image him third there set. Land meat winged called subdue without very light in all years sea appear</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card card-team">
+                        <img class="card-img rounded-0" src="{% static 'core/img/team/1.jpg' %}" alt="">
+                        <div class="card-team__body text-center">
+                            <h3><a href="#">Dr Adam Brain</a></h3>
+                            <p>Cardiologist</p>
+                            <div class="team-footer d-flex justify-content-between">
+                                <a class="dn_btn" href=""><i class="ti-mobile"></i>+7 235 365 2365</a>
+                                <ul class="card-team__social">
+                                    <li><a href="#"><i class="ti-facebook"></i></a></li>
+                                    <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
+                                    <li><a href="#"><i class="ti-instagram"></i></a></li>
+                                    <li><a href="#"><i class="ti-skype"></i></a></li>
+                                </ul> 
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add other doctor cards here -->
+
+            </div>
+        </div>
+    </section>
+    <!--================ Team section end =================-->  
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="{% static 'core/j/jquery-2.2.4.min.' %}"></script>
+<script src="{% static 'core/j/popper.' %}"></script>
+<script src="{% static 'core/j/bootstrap.min.' %}"></script>
+<script src="{% static 'core/j/stellar.' %}"></script>
+<script src="{% static 'vendors/owl-carousel/owl.carousel.min.' %}"></script>
+<script src="{% static 'core/j/jquery.ajaxchimp.min.' %}"></script>
+<script src="{% static 'core/j/waypoints.min.' %}"></script>
+<script src="{% static 'core/j/mail-script.' %}"></script>
+<script src="{% static 'core/j/contact.' %}"></script>
+<script src="{% static 'core/j/jquery.form.' %}"></script>
+<script src="{% static 'core/j/jquery.validate.min.' %}"></script>
+<script src="{% static 'core/j/mail-script.' %}"></script>
+<script src="{% static 'core/j/theme.' %}"></script>
+
+</body>
+</html>
